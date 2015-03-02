@@ -44,9 +44,7 @@ valable pour une durée de 10 ans.
 Les présentes stipulations constituent les Conditions particulières du contrat
 de développement conclu entre les Parties.
 
-En cochant la case ci-contre, le Client reconnaît avoir lu et accepté les
-
-_Conditions générales de vente_ de {{ company.name }}
+Le Client reconnaît avoir lu et accepté les _Conditions générales de vente_ de {{ company.name }}
 
 Fait à ........................................ , le ..............................
 En autant d’exemplaires originaux que de parties.
