@@ -22,9 +22,9 @@ task :handlebars do
 end
 
 task :pdf do
-  `mkdir contracts`
+  # `mkdir contracts`
   ['cp', 'cgv'].each do |file|
-    `rm contracts/#{file}.pdf`
+    # `rm contracts/#{file}.pdf`
     `gimli -f tmp/#{file}.md -o contracts`
   end
 end
