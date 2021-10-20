@@ -22,6 +22,7 @@ Le paiement des prestations interviendra par virement sur le compte bancaire don
 ## Conditions spécifiques
 
 ### Résiliation
+
 Le Contrat pourra être résilié par le Commanditaire, de plein droit, sans indemnité et sans préavis
 au profit de {{ company.name }}, par simple notification adressée par email ou lettre recommandée avec
 accusé de réception, dans les cas suivants :
