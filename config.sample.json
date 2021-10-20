@@ -19,6 +19,11 @@
   , "payment_novat_legend": "euros HT"
   , "payment_vat": null
   , "payment_vat_legend": "euros TTC"
+  , "notice": {
+      "duration": "un",
+      "duration_number": 1,
+      "unit": "mois"
+    }
   }
 , "vat_rate": 0.20
 , "cgv": {
