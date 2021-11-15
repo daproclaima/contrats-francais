@@ -60,7 +60,7 @@ une fois ceci fait, vous pouvez générer les contrats en faisant `rake`
 **Mise à jour par Sébastien NOBOUR le 20 Octobre 2021**:
 Utilisez l'image Docker du projet plutôt que les commandes `bundle` et `rake`, cela vous évite d'avoir à installer les packages sur votre appareil.
 * Construisez une image du projet: `docker build -t contract-generator .`
-* Démarrez le container du projet: `CID=$(docker run -v contracts:/contracts contract-generator)`
+* Démarrez le container du projet: `CID=$(docker run -d --name contract-generator-container -v contracts:/contracts contract-generator)`
 * Récupérez les fichiers en les copiant du container Docker vers son hôte: `docker cp $CID:/contracts .`
 * Arrêtez l'execution du container du projet: `docker stop $CID`
 
