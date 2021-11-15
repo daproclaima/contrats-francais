@@ -15,22 +15,22 @@ développements spécifiques.
 
 ## Prix - Paiement
 
-Le taux journalier de {{ company.name }} s'élève à {{ company.hourly_rate }} {{ company.hourly_rate_legend }}. {{ company.name }} propose ses services pour {{ contract.duration }} {{ contract.duration_legend }} de prestation.
-Le client s’engage donc à payer {{ contract.payment_novat }} {{ contract.payment_novat_legend }} soit {{ contract.payment_vat }} {{ contract.payment_vat_legend }} avant l’intervention.
+Le taux journalier de {{ company.name }} s'élève à {{ company.hourly_rate }} {{ company.hourly_rate_legend }}. {{ company.name }} propose ses services pour 
+{{ contract.duration }} {{ contract.duration_legend }} de prestation.
+Le client s’engage donc à payer {{ contract.payment_novat }} {{ contract.payment_novat_legend }} soit {{ contract.payment_vat }} {{ contract.payment_vat_legend }} 
+avant l’intervention.
 Le paiement des prestations interviendra par virement sur le compte bancaire dont le RIB a été communiqué au Client.
 
 ## Conditions spécifiques
 
 ### Résiliation
 
-Le Contrat pourra être résilié par le Commanditaire, de plein droit, sans indemnité et sans préavis
-au profit de {{ company.name }}, par simple notification adressée par email ou lettre recommandée avec
-accusé de réception, dans les cas suivants :
-- Faute grave de {{ company.name }}
+Le Contrat pourra être résilié par le Commanditaire, de plein droit et sans indemnité, par simple notification adressée par email ou lettre recommandée avec
+accusé de réception, pour les motifs suivants :
+- Faute grave de {{ company.name }}.
 
-La résiliation prendra effet au jour de la réception et de la notification de résiliation adressée par lettre
-recommandée avec accusé de réception, sans avoir à justifier un quelconque motif et sans indemnité,
-moyennant un préavis de {{ contract.notice.duration }} ({{ contract.notice.duration_number }}) {{ contract.notice.unit }}.
+La résiliation prendra effet au jour de la réception de la lettre recommandée avec accusé de réceptionet ou de la notification adressée par email, moyennant un préavis de 
+{{ contract.notice.duration }} ({{ contract.notice.duration_number }}) {{ contract.notice.unit }}.
 
 ### Liberté du Client relative aux Evolutions ou la maintenance
 
