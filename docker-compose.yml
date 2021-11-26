@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  contract-generator:
+    build:
+      context: .
+      target: contract-generator
+    volumes:
+      - './contracts:/usr/src/generator/contracts'

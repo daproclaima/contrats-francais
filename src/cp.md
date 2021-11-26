@@ -17,8 +17,9 @@ développements spécifiques.
 
 Le taux journalier de {{ company.name }} s'élève à {{ company.hourly_rate }} {{ company.hourly_rate_legend }}. {{ company.name }} propose ses services pour 
 {{ contract.duration }} {{ contract.duration_legend }} de prestation.
-Le client s’engage donc à payer {{ contract.payment_novat }} {{ contract.payment_novat_legend }} soit {{ contract.payment_vat }} {{ contract.payment_vat_legend }} 
-avant l’intervention.
+Le client s’engage à payer une facture d'accompte chaque mois, pour le mois à venir, dès réception de celle-ci
+<!-- Le client s’engage donc à payer {{ contract.payment_novat }} {{ contract.payment_novat_legend }} soit {{ contract.payment_vat }} {{ contract.payment_vat_legend }} 
+avant l’intervention. -->
 Le paiement des prestations interviendra par virement sur le compte bancaire dont le RIB a été communiqué au Client.
 
 ## Conditions spécifiques
